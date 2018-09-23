@@ -4,6 +4,7 @@ const SearchBox = props => {
   return (
     <div>
       <input
+        className="form-control" placeholder="Search Something"
         type="text"
         onInput={props.onSearch}
       />
