@@ -65,7 +65,7 @@ class App extends Component {
     )
 
     return (
-      <div>
+      <div className='container'>
         <SearchBox onSearch={this.doSearch} />
         {this.state.loading ? loading : articles}
       </div>
